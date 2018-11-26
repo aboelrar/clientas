@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_120sdp"
+    android:paddingRight="@dimen/_5sdp"
+    android:id="@+id/storeitem"
+    android:paddingLeft="@dimen/_5sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1"
+    android:gravity="right"
+    android:orientation="horizontal">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+    <LinearLayout
+        android:layout_weight=".7"
+        android:layout_width="0dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/_10sdp"
+        android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="كارفور"
+    android:textColor="@android:color/black"
+    android:textSize="@dimen/_14ssp"
+    android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:text="اوقات التوصيل:11 صباحا - ا صباحا"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:text="رسوم التوصيل : 5 ريال"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:text="الحد الادنى : 5 ريال"/>
+    </LinearLayout>
+<ImageView
+    android:layout_weight=".3"
+    android:src="@drawable/carfour"
+    android:scaleType="fitXY"
+    android:layout_margin="@dimen/_8sdp"
+    android:layout_width="0dp"
+    android:layout_height="match_parent" />
+        </LinearLayout>    </android.support.v7.widget.CardView>
+</LinearLayout>

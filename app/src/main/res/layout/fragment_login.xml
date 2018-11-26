@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phonenum"
+            android:layout_gravity="right"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_30sdp"
+    android:weightSum="1"
+    android:gravity="right"
+    android:orientation="horizontal">
+    <EditText
+        android:layout_weight=".3"
+        android:layout_width="0dp"
+        android:text="+966"
+        android:gravity="center"
+        android:background="@drawable/codeback"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_height="match_parent" />
+    <EditText
+        android:layout_weight=".7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/edittextback"
+        android:hint="@string/phonenum"
+        android:gravity="center"/>
+</LinearLayout>
+<Button
+    android:layout_width="@dimen/_220sdp"
+    android:layout_height="@dimen/_30sdp"
+    android:background="@drawable/buttonback"
+    android:text="@string/signin"
+    android:textColor="@color/appBack"
+    android:textSize="@dimen/_13ssp"
+    android:id="@+id/login"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_15sdp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

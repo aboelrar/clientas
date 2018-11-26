@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:id="@+id/goToProducts"
+    android:layout_marginBottom="@dimen/_15sdp"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="@dimen/_50sdp"
+    android:layout_height="@dimen/_60sdp"
+    android:padding="@dimen/_7sdp"
+    android:id="@+id/catimg"
+    android:src="@drawable/shoess"
+    android:background="@drawable/categoryback"
+    />
+    <TextView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/catttle"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold"
+        android:text="احزيه"/>
+</LinearLayout>

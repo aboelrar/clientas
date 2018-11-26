@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">client</string>
+    <string name="supermarket">Supermarket</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="phonenum">رقم الجوال</string>
+    <string name="createaccount">انشاء حساب</string>
+    <string name="signin">دخول</string>
+    <string name="fullName">الاسم بالكامل</string>
+    <string name="verfiyFromPhone">التحقق من الجوال</string>
+    <string name="verfiyCode">رمز التحقق</string>
+    <string name="verfiy">تحقق</string>
+    <string name="sendAgain">اعاده ارسال رمز التحقق</string>
+    <string name="back">العوده</string>
+    <string name="sendagain">اعادة ارسال</string>
+    <string name="city">المدينه</string>
+    <string name="determindMarket">تحديد المتجر</string>
+    <string name="store">المتجر</string>
+    <string name="Neighborhood">الحى</string>
+    <string name="next">التالى</string>
+    <string name="home">تسوق</string>
+    <string name="fav">المفضله</string>
+    <string name="cart">السله</string>
+    <string name="more">المزيد</string>
+    <string name="changestore">تغيير المتجر</string>
+    <string name="searchforproduct">ابحث عن منتج</string>
+    <string name="contactusbyemail">تواصل معنا عبر البريد الألكترونى</string>
+    <string name="contactus">اتصل بنا</string>
+    <string name="contactuswhats">التواصل بنا من خلال whatsapp</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="toknowdetails">لمعرفه تفاصيل الطلب</string>
+    <string name="presshere">اضغط هنا</string>
+    <string name="sum">المجموع :</string>
+    <string name="continuerequest">استكمال الطلب</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

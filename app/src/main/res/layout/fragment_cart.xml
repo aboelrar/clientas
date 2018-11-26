@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.cart">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/_100sdp"
+    android:id="@+id/cartList"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#EAE7E7"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:weightSum="1"
+            android:gravity="right"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight=".2"
+                android:layout_width="0dp"
+                android:text="@string/presshere"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_11ssp"
+                android:textColor="@color/appBack"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_weight=".33"
+                android:layout_width="0dp"
+                android:text="@string/toknowdetails"
+                android:gravity="center"
+                android:textSize="@dimen/_11ssp"
+                android:textColor="@android:color/black"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/grayy"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    android:textColor="@color/appBack"
+                    android:text="  21 ريال"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sum"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/ic_share_black_24dp"
+                    android:background="@color/green"
+                    android:layout_marginRight="@dimen/_15sdp"/>
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="match_parent"
+                    android:text="@string/continuerequest"
+                    android:gravity="center"
+                    android:textSize="@dimen/_13ssp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:background="@color/green"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+</FrameLayout>

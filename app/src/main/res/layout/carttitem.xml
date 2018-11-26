@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_90sdp"
+    android:gravity="right"
+    android:weightSum="1">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/_89sdp"
+      android:orientation="horizontal"
+      android:gravity="right"
+      android:weightSum="1">
+      <LinearLayout
+          android:layout_weight=".75"
+          android:layout_width="0dp"
+          android:orientation="vertical"
+          android:weightSum="1"
+          android:layout_height="match_parent">
+          <LinearLayout
+              android:layout_weight=".6"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:gravity="right"
+              android:weightSum="1"
+              android:paddingTop="@dimen/_10sdp"
+              android:layout_height="0dp">
+              <TextView
+                  android:layout_weight=".2"
+                  android:layout_width="0dp"
+                  android:textSize="@dimen/_12ssp"
+                  android:gravity="center"
+                  android:textStyle="bold"
+                  android:textColor="@android:color/black"
+                  android:layout_height="wrap_content"
+                  android:text="صغير"/>
+              <TextView
+                  android:layout_weight=".8"
+                  android:layout_width="0dp"
+                  android:textSize="@dimen/_12ssp"
+                  android:textColor="@android:color/black"
+                  android:layout_height="wrap_content"
+                  android:text="دوريتوس بطعم الفلفل الحار عرض خاص لمده اسبوع خصم 20 فى الميه"/>
+
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_weight=".35"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:weightSum="1"
+              android:gravity="right"
+              android:layout_height="0dp">
+              <TextView
+                  android:layout_weight=".2"
+                  android:layout_width="0dp"
+                  android:text="ربال"
+                  android:paddingRight="@dimen/_5sdp"
+                  android:textSize="@dimen/_12ssp"
+                  android:textColor="@color/red"
+                  android:textStyle="bold"
+                  android:layout_height="match_parent" />
+              <TextView
+                  android:layout_weight=".1"
+                  android:layout_width="0dp"
+                  android:text="9"
+                  android:id="@+id/ttlpriceprd"
+                  android:gravity="left"
+                  android:textSize="@dimen/_12ssp"
+                  android:textColor="@color/red"
+                  android:textStyle="bold"
+                  android:layout_height="match_parent" />
+              <LinearLayout
+                  android:layout_weight=".5"
+                  android:layout_width="0dp"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal"
+                  android:layout_height="match_parent">
+                  <ImageView
+                      android:layout_width="@dimen/_25sdp"
+                      android:layout_height="@dimen/_25sdp"
+                      android:textColor="@android:color/white"
+                      android:src="@drawable/add"
+                      android:padding="@dimen/_5sdp"
+                      android:id="@+id/increase"
+                      android:layout_marginRight="@dimen/_3sdp"
+                      android:background="@drawable/ovalnum"
+                      android:gravity="center"/>
+                  <TextView
+                      android:layout_width="@dimen/_25sdp"
+                      android:layout_height="@dimen/_25sdp"
+                      android:layout_marginRight="@dimen/_3sdp"
+                      android:text="1"
+                      android:id="@+id/textnum"
+                      android:textColor="@android:color/white"
+                      android:textSize="@dimen/_11ssp"
+                      android:background="@drawable/insecreaseback"
+                      android:gravity="center"/>
+                  <ImageView
+                      android:layout_width="@dimen/_25sdp"
+                      android:layout_height="@dimen/_25sdp"
+                      android:textColor="@android:color/white"
+                      android:textSize="@dimen/_13ssp"
+                      android:src="@drawable/substract"
+                      android:id="@+id/decrease"
+                      android:padding="@dimen/_5sdp"
+                      android:background="@drawable/ovalnum"
+                      android:gravity="center"/>
+              </LinearLayout>
+              <TextView
+                  android:layout_weight=".2"
+                  android:layout_width="0dp"
+                  android:textSize="@dimen/_12ssp"
+                  android:text="9 ريال "
+                  android:gravity="center_horizontal"
+                  android:textColor="@android:color/black"
+                  android:textStyle="bold"
+                  android:layout_height="match_parent" />
+          </LinearLayout>
+
+      </LinearLayout>
+      <ImageView
+          android:layout_weight=".25"
+          android:layout_width="0dp"
+          android:src="@drawable/doritos"
+          android:padding="@dimen/_10sdp"
+          android:layout_height="match_parent" />
+
+  </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/gray"        />
+</LinearLayout>
